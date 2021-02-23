@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        body{
+            background: #a1ffce; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #a1ffce, #faffd1); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #a1ffce, #faffd1);
+        }
+
+        #sec{
+            border: black 1px solid;
+            width: 125px;
+            height: 110px;
+            border-radius: 50%;
+            text-align: center;
+            padding-top: 30px;
+            background-color: whitesmoke;
+            margin: 15px;
+        }
+
+        #sec p a{
+            text-decoration: none;
+        }
+
+        #bt{
+            margin-left: 1000PX;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <img src="images/2.jpg" width="100%">
+    </div>
+    <div class="container">
+
+        
+        <div class=" bg-primary">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="container">
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="mynav">
+
+                        <!-- Links -->
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-home" aria-hidden="true"></i> Modules <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-user-circle-o" aria-hidden="true"></i> Profile</a>
+                          </li>
+                    
+                          <!-- Dropdown -->
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <i class="fa fa-bookmark-o" aria-hidden="true"></i> Services</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Bill Section</a>
+                              <a class="dropdown-item" href="#">HR section</a>
+                              <a class="dropdown-item" href="#">Works Section</a>
+                              <a class="dropdown-item" href="demo.html">Tutorials Demos</a>
+                              <a class="dropdown-item" href="query.html">Query Section</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                          </li>
+                        </ul>
+                        <form class="form-inline ml-auto">
+                        <div class="md-form my-0">
+                          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+                        <button href="#!" class="btn btn-outline-black btn-md my-0 ml-sm-2" type="submit">Search</button>
+                      </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <ul style="list-style: none;">
+                    <li>New Employee</li>
+                    <li>Bill Details</li>
+                    <li>New Bills</li>
+                    <li>Salary Bills</li>
+                    <li>Covid Bill</li>
+                    <li>New Employee</li>
+                    <li>Bill Details</li>
+                    <li>New Bills</li>
+                    <li>Salary Bills</li>
+                    <li>Covid Bill</li>
+                    <li>New Employee</li>
+                    <li>Bill Details</li>
+                    <li>New Bills</li>
+                    <li>Salary Bills</li>
+                    <li>Covid Bill</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-1" id="sec">
+                <p style="display: inline;"> 
+                    <a href="#">Bill Section</a>
+                </p>
+            </div>
+
+            <div class="col-lg-1" id="sec">
+                <p style="display: inline;"> 
+                    <a href="#">HR Section</a>
+                </p>
+            </div>
+
+            <div class="col-lg-1" id="sec">
+                <p> 
+                    <a href="#">Works Section</a>
+                </p>
+            </div>
+            <div class="col-lg-1" id="sec">
+                <p > 
+                    <a href="demo.html">Tutorials Demos</a>
+                </p>
+            </div>
+            
+            <div class="col-lg-1" id="sec">
+                <p > 
+                    <a href="query.html">Query Section</a>
+                </p>
+            </div>
+
+        </div> 
+        <button type="button" class="btn pmd-btn-fab btn-warning pmd-ripple-effect pmd-btn-raised" style="border-radius: 50%;" id="bt"><a href="query.html" style="text-decoration: none;">
+            <i class="fa fa-question fa-2x" aria-hidden="true"></i></a>
+        </button>    
+    </div>
+    
+        
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
